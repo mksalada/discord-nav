@@ -1,0 +1,7 @@
+header nav {
+	background-color: #5865f2;
+}
+
+header nav span button {
+	border-radius: 20px !important;
+}
