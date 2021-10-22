@@ -1,7 +1,21 @@
-header nav {
+/* Header Navbar */
+header .navbar {
 	background-color: #5865f2;
 }
 
-header nav span button {
+/* Header Toggler Button */
+header .navbar-toggler {
 	border-radius: 20px !important;
+}
+
+@media (max-width: 576px) {
+	/* Navbar Login Button */
+	.navbar-text {
+		display: none !important;
+	}
+
+	/* Navbar Login Link */
+	.navbar-login {
+		visibility: visible !important;
+	}
 }
